@@ -1,0 +1,35 @@
+.app__planner-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin: 5rem;
+}
+
+.app__planner-content_quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.app__planner-content_quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app__planner-sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 2000px) {
+    .app__planner-sign img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__planner-sign img {
+        width: 80%;
+    }
+}
